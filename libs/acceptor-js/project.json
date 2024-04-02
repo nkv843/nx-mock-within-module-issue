@@ -1,0 +1,9 @@
+{
+  "name": "acceptor-js",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/acceptor-js/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project acceptor-js --web",
+  "targets": {}
+}

@@ -2,7 +2,9 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "nx run-many --target=test --skip-nx-cache --exclude=donor,donor-js,org"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
@@ -45,6 +47,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
     "nx": "18.2.1",
     "prettier": "^2.6.2",
     "react-refresh": "^0.10.0",
